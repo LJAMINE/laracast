@@ -25,7 +25,7 @@
                         <div class="hidden md:block">
                             <div class="ml-10 flex items-baseline space-x-4">
                                 <a href="/" class="{{ request()->is('/') ? 'bg-gray-900 text-white px-4 py-2 rounded-lg' : 'text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2 rounded-lg' }}" aria-current="page">home</a>
-                                <a href="/about" class="{{ request()->is('about') ? 'bg-gray-900 text-white px-4 py-2 rounded-lg' : 'text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2 rounded-lg' }}">about</a>
+                                <a href="/jobs" class="{{ request()->is('jobs') ? 'bg-gray-900 text-white px-4 py-2 rounded-lg' : 'text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2 rounded-lg' }}">jobs</a>
                                 <a href="/contact" class="{{ request()->is('contact') ? 'bg-gray-900 text-white px-4 py-2 rounded-lg' : 'text-gray-300 hover:bg-gray-700 hover:text-white px-4 py-2 rounded-lg' }}">contact</a>
                             </div>
                             
@@ -93,8 +93,8 @@
                     <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                     <a href="/" class="block rounded-md bg-gray-900 px-3 py-2 text-base font-medium text-white"
                         aria-current="page">home</a>
-                    <a href="/about"
-                        class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">about</a>
+                    <a href="/jobs"
+                        class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">jobs</a>
                     <a href="/contact"
                         class="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">contact</a>
                    
